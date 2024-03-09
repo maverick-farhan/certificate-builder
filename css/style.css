@@ -108,7 +108,7 @@ main div.container h1.title{
 width:60%;
 color:#040D12;
 line-height:4.7rem;
-font-weight:500;
+font-weight:700;
 font-size:5.2rem;
 position:relative;
 top:-4rem;
@@ -156,6 +156,7 @@ footer h1{
 }
 footer h3{
     font-size:1.6rem;
+    font-weight:400;
     padding:20px 4rem;
     text-align:center;
     color:#222;
@@ -171,13 +172,14 @@ a.support img{
     box-shadow:2px 2px 3px #222;
 }
 
-div.menubar-mobile ul{
-    width:100%;
+div.menubar-mobile{
+    width:50%;
+    right:0%;
     position:absolute;
-    right:0;
-    visibility:hidden;
-    background:red;
     display:flex;
-    justify-content:space-between;
-    align-items:center;
+    justify-content:space-evenly;
+}
+
+div.menubar-mobile ul li>a{
+margin-left:100px;
 }

@@ -3,9 +3,7 @@ const github = document.getElementById('github');
 const mode = document.getElementById('moon');
 const menu_mobile = document.querySelector('.menubar-mobile');
 
-
-
-window.addEventListener('resize', ()=>{
+const mobileSize = ()=>{
 if(screen.width < 700){
         mode.style.display="none";
         github.style.display="none";
@@ -17,7 +15,10 @@ else{
         menu_mobile.style.visibility="hidden";
 
 }
-},true);
+}
+if(window.screen.width<700){
+        mobileSize();
+}
 
 moonIcon.addEventListener('click', (e)=>{
         e.target.classList.remove('moonIcon');
