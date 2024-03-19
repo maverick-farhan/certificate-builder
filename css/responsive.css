@@ -1,3 +1,319 @@
+@media (max-width:1025px){
+nav.header{
+    width:100%;
+    height:10vh;
+    padding:10px 2rem;
+}
+h1.logo{
+    width:50%;
+    color:#111;
+    font-size:29px;
+}
+h1.logo i.fa-award{
+    color:#E1880A;
+    font-size:3px;
+}
+ul.nav-list{
+    width:50%;
+    list-style:none;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+ul.nav-list li.nav-items{
+    width:30%;
+    text-align:right;
+}
+
+ul.nav-list li.nav-items a{
+    color:#212121;
+    text-decoration:none;
+    font-size:15px;
+}
+ul.nav-list li.nav-items:not(li.nav-items.build).github a{
+    font-size:28px;
+    text-transform:lowercase;
+}
+ul.nav-list li.nav-items i.fa-moon,ul.nav-list li.nav-items i.fa-sun{
+    position:relative;
+    left:3rem;
+    cursor:pointer;
+    font-size:28px;
+    color:#212121;
+}
+
+ul.nav-list li.nav-items.build a{
+    padding:14px 13px;
+    display:inline-block;
+    width:10.4rem;
+    font-size:19px;
+    font-weight:500;
+    color:#fff;
+    border-radius:10px;
+    text-align:center !important;
+    background-color:#040D12;
+}
+
+main div.container{
+    width:100%;
+    height:92vh;
+    justify-content:space-between;
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+}
+main div.container div.image{
+    width:100%;
+    margin:0 auto;
+    position:relative;
+    top:-14rem;
+    text-align:center;
+}
+main div.container div.image img{
+    width:100%;
+    left:50%;
+    transform:translateX(-50%); 
+    position:relative;
+    border-radius:10px;
+}
+
+main div.container h1.title{
+width:100%;
+text-align:center;
+color:#040D12;
+line-height:3.8rem;
+font-weight:700;
+font-size:3.89rem;
+position:relative;
+top:4rem;
+padding:0 2rem;
+}
+button.build{
+all:unset;
+padding:0 6rem;
+position:relative;
+left:50%;
+top:-9rem;
+transform:translateX(-50%);
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+ button.build a{
+    position:relative;
+margin-bottom:2rem;
+    display:inline-block;
+    width:13rem;
+    font-size:18px;
+    font-weight:500;
+    color:#fff;
+    border-radius:10px;
+    text-align:center !important;
+    background-color:#040D12;
+    text-decoration:none;
+}
+
+footer{
+    display:flex;
+    position:relative;
+    top:-10rem;
+    height:10vh;
+    flex-direction:column;
+    width:100%;
+    justify-content:center;
+    align-items:center;
+}
+footer h1{
+    font-size:2.2rem;
+    color:#111112;
+    font-weight:700;
+}
+footer h3{
+    font-size:1.1rem;
+    padding:20px 4rem;
+    font-weight:400;
+    text-align:center;
+    color:#222;
+    
+}
+footer h4{
+    color:#222;
+    font-family:var(--text);
+    padding:20px;
+}
+a.support img{
+    border-radius:20px;
+    box-shadow:2px 2px 3px #222;
+}
+div.menubar-mobile ul.nav-list{
+    width:100%;
+    display:flex;
+    position:absolute;
+    right:50%;
+    justify-content:space-evenly;
+}
+
+}
+
+
+@media (max-width:801px){
+nav.header{
+    width:100%;
+    height:10vh;
+    padding:10px 2rem;
+}
+h1.logo{
+    width:50%;
+    color:#111;
+    font-size:29px;
+}
+h1.logo i.fa-award{
+    color:#E1880A;
+    font-size:34px;
+}
+ul.nav-list{
+    width:50%;
+    list-style:none;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+ul.nav-list li.nav-items{
+    width:30%;
+    text-align:right;
+}
+
+ul.nav-list li.nav-items a{
+    color:#212121;
+    text-decoration:none;
+    font-size:15px;
+}
+ul.nav-list li.nav-items:not(li.nav-items.build).github a{
+    font-size:28px;
+    text-transform:lowercase;
+}
+ul.nav-list li.nav-items i.fa-moon,ul.nav-list li.nav-items i.fa-sun{
+    position:relative;
+    left:3rem;
+    cursor:pointer;
+    font-size:28px;
+    color:#212121;
+}
+
+ul.nav-list li.nav-items.build a{
+    padding:14px 13px;
+    display:inline-block;
+    width:10.4rem;
+    font-size:19px;
+    font-weight:500;
+    color:#fff;
+    border-radius:10px;
+    text-align:center !important;
+    background-color:#040D12;
+}
+
+main div.container{
+    width:100%;
+    height:92vh;
+    justify-content:space-between;
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+}
+main div.container div.image{
+    width:100%;
+    margin:0 auto;
+    position:relative;
+    top:-14rem;
+    text-align:center;
+}
+main div.container div.image img{
+    width:100%;
+    left:50%;
+    transform:translateX(-50%); 
+    position:relative;
+    border-radius:10px;
+}
+
+main div.container h1.title{
+width:100%;
+text-align:center;
+color:#040D12;
+line-height:3.8rem;
+font-weight:700;
+font-size:3.89rem;
+position:relative;
+top:4rem;
+padding:0 2rem;
+}
+button.build{
+all:unset;
+padding:0 6rem;
+position:relative;
+left:50%;
+top:-9rem;
+transform:translateX(-50%);
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+ button.build a{
+    position:relative;
+margin-bottom:2rem;
+    display:inline-block;
+    width:13rem;
+    font-size:18px;
+    font-weight:500;
+    color:#fff;
+    border-radius:10px;
+    text-align:center !important;
+    background-color:#040D12;
+    text-decoration:none;
+}
+
+footer{
+    display:flex;
+    position:relative;
+    top:-10rem;
+    height:10vh;
+    flex-direction:column;
+    width:100%;
+    justify-content:center;
+    align-items:center;
+}
+footer h1{
+    font-size:2.2rem;
+    color:#111112;
+    font-weight:700;
+}
+footer h3{
+    font-size:1.1rem;
+    padding:20px 4rem;
+    font-weight:400;
+    text-align:center;
+    color:#222;
+    
+}
+footer h4{
+    color:#222;
+    font-family:var(--text);
+    padding:20px;
+}
+a.support img{
+    border-radius:20px;
+    box-shadow:2px 2px 3px #222;
+}
+div.menubar-mobile ul.nav-list{
+    width:100%;
+    display:flex;
+    position:absolute;
+    right:50%;
+    justify-content:space-evenly;
+}
+
+}
 @media (max-width:430px){
 nav.header{
     width:100%;
@@ -213,7 +529,7 @@ ul.nav-list li.nav-items.build a{
 
 main div.container{
     width:100%;
-    height:92vh;
+    height:100vh;
     justify-content:space-between;
     align-items:center;
     display:flex;
@@ -240,7 +556,7 @@ text-align:center;
 color:#040D12;
 line-height:2.8rem;
 font-weight:700;
-font-size:3.19rem;
+font-size:2.6rem;
 position:relative;
 top:4rem;
 padding:0 2rem;

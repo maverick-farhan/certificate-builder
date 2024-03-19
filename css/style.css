@@ -61,13 +61,7 @@ ul.nav-list li.nav-items:not(li.nav-items.build).github a{
     font-size:26px;
     text-transform:lowercase;
 }
-ul.nav-list li.nav-items i.fa-moon,ul.nav-list li.nav-items i.fa-sun{
-    position:relative;
-    left:4rem;
-    cursor:pointer;
-    font-size:26px;
-    color:#212121;
-}
+
 
 ul.nav-list li.nav-items.build a{
     padding:14px;
@@ -174,6 +168,7 @@ a.support img{
 
 div.menubar-mobile{
     width:50%;
+    visibility:hidden;
     right:0%;
     position:absolute;
     display:flex;
